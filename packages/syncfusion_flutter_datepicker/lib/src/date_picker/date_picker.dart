@@ -7071,14 +7071,18 @@ class _SfDateRangePickerState extends State<_SfDateRangePicker>
                   onPressed: _handleCancel,
                   child: Text(
                     widget.cancelText,
-                    style: TextStyle(color: textColor),
+                    style: TextStyle(color: Color(0xff9C9C9C),
+                        fontWeight: FontWeight.w600,
+                        fontFamily: 'PlusJakartaSans')
                   ),
                 ),
                 TextButton(
                   onPressed: _handleOk,
                   child: Text(
                     widget.confirmText,
-                    style: TextStyle(color: textColor),
+                    style: TextStyle(color: Color(0xff18399A),
+                        fontWeight: FontWeight.w800,
+                        fontFamily: 'PlusJakartaSans')
                   ),
                 ),
               ],
